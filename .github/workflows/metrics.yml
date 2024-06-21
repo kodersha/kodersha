@@ -22,14 +22,16 @@ jobs:
           base_hireable: yes
           config_display: large
           config_octicon: yes
-          config_padding: 0
           config_timezone: Asia/Novosibirsk
+          config_twemoji: yes
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 8
+          plugin_languages_ignored: python
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 10
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
