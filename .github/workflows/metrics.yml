@@ -29,8 +29,8 @@ jobs:
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_ignored: python
-          plugin_languages_skipped: yellow
+          plugin_languages_ignored: python, xslt
+          plugin_languages_skipped: slcb-script-modified-thepointstts, slcb-script-modified-ttsalertsandchat, rutony-say-to-twitch-youtube, obs-theme-twitch
           plugin_languages_indepth: yes
           plugin_languages_limit: 10
           plugin_languages_recent_categories: markup, programming
