@@ -5,8 +5,8 @@
       "widgetId": "ascii-art",
       "name": "Ascii-art Widget",
       "position": {
-        "x": 8,
-        "y": 64
+        "x": 32,
+        "y": 24
       },
       "size": {
         "width": 280,
@@ -11516,21 +11516,28 @@
       "instanceId": "widget_1794161498154_1"
     },
     {
-      "widgetId": "terminal-info",
-      "name": "Terminal-info Widget",
+      "instanceId": "widget_eb0943e1-5ed3-4ad6-a005-2dd447c02422",
+      "widgetId": "premium-ascii-profile-card",
+      "name": "Premium-ascii-profile-card Widget",
       "position": {
-        "x": 296,
-        "y": 64
+        "x": 280,
+        "y": 0
       },
       "size": {
-        "width": 504,
-        "height": 280
+        "width": 520,
+        "height": 440
       },
-      "config": {},
+      "config": {
+        "lockAspectRatio": true,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#3fb950",
+        "secondaryColor": "#39c5cf",
+        "borderColor": "#30363d"
+      },
       "locked": false,
       "visible": true,
-      "zIndex": 3,
-      "instanceId": "widget_1794161498154_2"
+      "zIndex": 4
     }
   ],
   "globalStyles": {
@@ -11548,7 +11555,7 @@
   "templateId": "minimal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1794208740291_n633r",
-    "updatedAt": "2026-11-09T07:19:04.917Z"
+    "revision": "rev_1794402128036_uogkv",
+    "updatedAt": "2026-11-11T13:02:11.619Z"
   }
 }
